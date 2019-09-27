@@ -1,0 +1,30 @@
+{
+  "name": "rxform",
+  "version": "0.0.0-alpha1",
+  "main": "index.js",
+  "license": "MIT",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "scripts": {
+    "dev": "parcel examples/simple/index.html"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rxjs": "^6.5.3",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "parcel-bundler": "^1.12.3",
+    "rollup": "^1.21.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.6.3"
+  },
+  "alias": {
+    "rx-form": "./src"
+  }
+}
